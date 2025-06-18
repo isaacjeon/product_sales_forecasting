@@ -12,6 +12,7 @@ The dataset was sourced from a small private retailer. I have preprocessed the d
 - `base_price`: This is the base retail price (ignoring higher prices for larger sizes and reverting discounted prices) for the product on the respective date. The prices are rounded up to the nearest dollar (e.g. $21.99 -> 22).
 
 ## Data Processing and Analysis
+
 The `processing_and_eda.ipynb` file contains the code data cleaning, processing, and analysis as well as feature engineering steps. Tools for analysis include KDE plot for the target value, ACF and PACF plots, bar plots, correlation matrix, as well as STL decomposition for trend and seasonality analysis.
 
 ## Models
