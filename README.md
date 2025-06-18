@@ -6,7 +6,7 @@ The `report.pdf` PDF file contains a full write-up of the results of this projec
 
 ## Dataset
 
-The dataset was sourced from a small private retailer. I have preprocessed the dataset to include only relative, non-sensitive information and have, with permission from the dataset's owner, uploaded the resulting data in the `data` folder. In its current form, it contains three columns:
+The dataset was sourced from a small private retailer. I have preprocessed the dataset to include only relative non-sensitive information. A preview of the tabular data can be seen in the beginning of the `processing_and_eda.ipynb` notebook. In its current stripped-down form, it contains three columns:
 - `data`: Contains entries for all dates from 2018-01-01 to 2025-06-01.
 - `qty`: The quantity of the product sold on the respective date. This is the target value. Entries for 2020-03-20 to 2020-05-07 are missing as a result of a temporary closure of the store due to California's stay-at-home mandate during the COVID-19 pandemic. In addition, the store is fully closed on Christmas and New Year's Day and as a result will always have 0 sale counts. There may be days with reduced store hours such as Thanksgiving Day which may have non-zero values, but are not specified.
 - `base_price`: This is the base retail price (ignoring higher prices for larger sizes and reverting discounted prices) for the product on the respective date. The prices are rounded up to the nearest dollar (e.g. $21.99 -> 22).
