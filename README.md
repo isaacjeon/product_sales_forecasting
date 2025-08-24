@@ -1,4 +1,4 @@
-# Product Sales Forecasting Project
+# Retail Product Sales Forecasting
 
 This project involves the daily sales of a single style of work pants aggregrated across different sizes and colors for a single store. The goal is to analyze and identify important factors and trends in the data, and forecast sales for up to 28 days into the future.
 
