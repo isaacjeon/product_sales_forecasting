@@ -3,9 +3,9 @@
 This project involves the daily sales of a single style of work pants aggregrated across different sizes and colors for a single store. The goal is to analyze and identify important factors and trends in the data, and forecast sales for up to 28 days into the future.
 
 ## Files
-- [slides.pdf](https://github.com/isaacjeon/product_sales_forecasting/blob/main/slides.pdf) is a presentation-style summary of the project
-- [report.pdf](https://github.com/isaacjeon/product_sales_forecasting/blob/main/report.pdf) is a full write-up of the results of this project.
-- The code is included in the Jupyter notebooks in the `main` and `model` repositories, and work was done through Google Colab.
+- [slides.pdf](https://github.com/isaacjeon/product_sales_forecasting/blob/main/slides.pdf) is a PDF file for a PowerPoint presentation of the project
+- [report.pdf](https://github.com/isaacjeon/product_sales_forecasting/blob/main/report.pdf) is a full write-up for this project.
+- The code is included in the Jupyter notebooks, and work was done through Google Colab.
   - [processing_and_eda.ipynb](https://github.com/isaacjeon/product_sales_forecasting/blob/main/processing_and_eda.ipynb) - notebook for data cleaning and exploratino
   - [models/](https://github.com/isaacjeon/product_sales_forecasting/tree/main/models) - Contains notebooks for modeling and evaluation
 
